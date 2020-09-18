@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MaterialTutorial</string>
+    <string name="username">UserName</string>
+    <string name="email">username@email.com</string>
+    <string name="item1_String">Material AlertDialog</string>
+    <string name="item2_String">Material ListView</string>
+    <string name="item3_String">Material MapView</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="header_item1">About</string>
+    <string name="list_toolbar_search">Search</string>
+    <string name="list_toolbar_menu">Menu</string>
+    <string name="main_menu_list">메인메뉴 활성화</string>
+    <string name="item_list_text">item = x</string>
+</resources>

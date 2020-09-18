@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_dialog"
+        android:icon="@drawable/ic_baseline_add_alert_24"
+        android:title="@string/item1_String"/>
+
+    <item
+        android:id="@+id/item_list"
+        android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:title="@string/item2_String"/>
+
+    <item
+        android:id="@+id/item_map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/item3_String"/>
+</menu>
