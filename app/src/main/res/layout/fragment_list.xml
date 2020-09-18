@@ -33,6 +33,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="?attr/actionBarSize"
                             android:layout_margin="8dp"
+                            android:background="@drawable/toolbar_round"
+                            android:elevation="8dp"
                             app:menu="@menu/list_toolbar_menu"
                             app:layout_collapseMode="pin">
 
@@ -40,6 +42,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="Search"
+                                    android:textColor="@android:color/darker_gray"
                                     android:textSize="18dp"/>
 
                         </com.google.android.material.appbar.MaterialToolbar>
@@ -49,7 +52,7 @@
         </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/layout_listView"
+            android:id="@+id/layout_RecyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
