@@ -12,4 +12,8 @@
     <string name="list_toolbar_menu">Menu</string>
     <string name="main_menu_list">메인메뉴 활성화</string>
     <string name="item_list_text">item = x</string>
+    <string name="bsheet_SubText">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
+    <string name="bsheet_TitleText">Bottom Sheet View</string>
 </resources>

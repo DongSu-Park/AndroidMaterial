@@ -12,12 +12,12 @@
         android:layout_height="match_parent"
         android:gravity="start|center"
         android:text="@string/item_list_text"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:layout_margin="3dp"
         style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-        android:backgroundTint="@color/colorPrimary"
+        android:backgroundTint="@android:color/white"
         app:strokeColor="@android:color/black"
         app:strokeWidth="2dp"
-        app:elevation="8dp" />
+        app:elevation="40dp" />
 
 </LinearLayout>

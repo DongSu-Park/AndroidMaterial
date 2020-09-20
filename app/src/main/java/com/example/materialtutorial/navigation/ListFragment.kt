@@ -22,7 +22,8 @@ class ListFragment : Fragment(){
 
     inner class ListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
         var items : MutableList<ItemDTO> = mutableListOf(ItemDTO(1),
-            ItemDTO(2),ItemDTO(3),ItemDTO(4),ItemDTO(5),ItemDTO(6),ItemDTO(7),ItemDTO(8),ItemDTO(9),ItemDTO(10))
+            ItemDTO(2),ItemDTO(3),ItemDTO(4),ItemDTO(5),ItemDTO(6),ItemDTO(7),ItemDTO(8),
+            ItemDTO(9),ItemDTO(10), ItemDTO(12), ItemDTO(13), ItemDTO(14), ItemDTO(15))
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
             val view = LayoutInflater.from(parent.context).inflate(R.layout.item_listview, parent, false)

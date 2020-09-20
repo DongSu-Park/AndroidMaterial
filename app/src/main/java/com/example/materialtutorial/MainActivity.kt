@@ -2,10 +2,8 @@ package com.example.materialtutorial
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Gravity
-import android.view.Menu
-import android.view.MenuItem
-import android.view.View
+import android.text.Layout
+import android.view.*
 import android.widget.ImageView
 import android.widget.PopupMenu
 import android.widget.Toast
@@ -15,6 +13,7 @@ import com.bumptech.glide.Glide
 import com.example.materialtutorial.navigation.DialogFragment
 import com.example.materialtutorial.navigation.ListFragment
 import com.example.materialtutorial.navigation.MapFragment
+import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.navigation.NavigationView
 import kotlinx.android.synthetic.main.activity_main.*
@@ -76,6 +75,7 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 show()
             }
         }
+
     }
 
     // Home Button Click

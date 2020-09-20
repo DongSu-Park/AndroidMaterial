@@ -41,8 +41,9 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:text="Search"
-                                    android:textColor="@android:color/darker_gray"
+                                    android:text="Item List"
+                                    android:textStyle="bold"
+                                    android:textColor="@android:color/white"
                                     android:textSize="18dp"/>
 
                         </com.google.android.material.appbar.MaterialToolbar>
@@ -55,6 +56,8 @@
             android:id="@+id/layout_RecyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        </androidx.recyclerview.widget.RecyclerView>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
