@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.materialtutorial.R
 import com.example.materialtutorial.navigation.model.ItemDTO
+import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.fragment_list.view.*
 import kotlinx.android.synthetic.main.item_listview.view.*
 
@@ -21,10 +22,10 @@ class ListFragment : Fragment(){
     }
 
     inner class ListAdapter : RecyclerView.Adapter<RecyclerView.ViewHolder>(){
-        var items : MutableList<ItemDTO> = mutableListOf()
+        private var items : MutableList<ItemDTO> = mutableListOf()
 
         init {
-            for (i in 1..10){
+            for (i in 1..13){
                 items.add(ItemDTO(i))
             }
 

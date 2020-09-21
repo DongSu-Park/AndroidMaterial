@@ -2,9 +2,10 @@
     <string name="app_name">MaterialTutorial</string>
     <string name="username">UserName</string>
     <string name="email">username@email.com</string>
-    <string name="item1_String">Material AlertDialog</string>
-    <string name="item2_String">Material ListView</string>
-    <string name="item3_String">Material MapView</string>
+    <string name="item1_String">Button</string>
+    <string name="item2_String">List</string>
+    <string name="item3_String">Sheet</string>
+    <string name="item4_String">About</string>
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="header_item1">About</string>
@@ -16,4 +17,5 @@
         when an unknown printer took a galley of type and scrambled it to make a type specimen book.
         It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</string>
     <string name="bsheet_TitleText">Bottom Sheet View</string>
+
 </resources>

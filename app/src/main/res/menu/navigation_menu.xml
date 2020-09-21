@@ -3,15 +3,24 @@
     <item
         android:id="@+id/item_dialog"
         android:icon="@drawable/ic_baseline_add_alert_24"
+        android:enabled="true"
         android:title="@string/item1_String"/>
 
     <item
         android:id="@+id/item_list"
         android:icon="@drawable/ic_baseline_format_list_bulleted_24"
+        android:enabled="true"
         android:title="@string/item2_String"/>
 
     <item
         android:id="@+id/item_map"
         android:icon="@drawable/ic_baseline_map_24"
+        android:enabled="true"
         android:title="@string/item3_String"/>
+
+    <item
+        android:id="@+id/item_about"
+        android:icon="@drawable/ic_baseline_announcement_24"
+        android:enabled="true"
+        android:title="@string/item4_String"/>
 </menu>
